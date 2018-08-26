@@ -1,3 +1,4 @@
 .gradle
 .idea
 spike-jenkins-pipeline-unit.iml
+out
