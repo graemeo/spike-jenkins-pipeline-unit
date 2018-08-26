@@ -1,0 +1,13 @@
+@Library("hello") _
+
+hello()
+
+node() {
+    stage ("Test") {
+        hello()
+    }
+
+    stage ("Test 2") {
+        sh "echo 'goodbye world'"
+    }
+}

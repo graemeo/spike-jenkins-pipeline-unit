@@ -8,4 +8,5 @@ dependencies {
     compile "org.codehaus.groovy:groovy-all:2.4.6"
     testCompile "com.lesfurets:jenkins-pipeline-unit:1.1"
     testCompile "junit:junit:4.9"
+    testCompile "org.assertj:assertj-core:3.4.1"
 }
